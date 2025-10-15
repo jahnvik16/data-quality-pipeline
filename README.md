@@ -69,26 +69,31 @@ It:
 ▶️ Usage
 
 1. Load Data
+
    import pandas as pd
+
    df = pd.read_csv('your_dataset.csv')
 
-2. Inspect
+3. Inspect
+
    df.info()
+
    df.describe()
 
-3. Clean
+5. Clean
   Handle missing values
   Remove duplicates
   Detect outliers (IQR)
 
-4. Visualize
+6. Visualize
    Histograms, boxplots, scatter plots
 
-5. Generate Insights
+7. Generate Insights
   Summaries of missing values, skewness, correlations
 
-6. Save Cleaned Data
-  df.to_csv('data_cleaned.csv', index=False)
+8. Save Cleaned Data
+
+df.to_csv('data_cleaned.csv', index=False)
 
 📊 Output Examples
 
@@ -103,6 +108,7 @@ Outlier summary
 Histograms & boxplots
 
 Correlation heatmap
+
 Cleaned dataset: data_cleaned.csv
 
 🧩 Monitoring Dashboard
